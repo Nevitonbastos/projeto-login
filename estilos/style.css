@@ -1,7 +1,42 @@
 @charset "UTF-8";
 
-
+/*paleta de cores*/
 :root{
     --cor0:#3b918e;
     --cor1:#47225f;
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #47225f;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+section#login > div#imagem {
+    background: #47225f url(../imagens/pexels-clement-proust-363898785-18434891.jpg);
+    background-size: cover;
+    height: 200px;
 }
