@@ -6,8 +6,18 @@
     body{
         background-image: linear-gradient(to top, #4d3622, #8a6d47) ;
     }
+
+    form .campo{
+        background-color: #8a6d47;
+        border: 2px solid #61513d;
+    }
+
+    .campo input{
+        background-color: #e2c9a9;
+    }
     section#login {
         width: 80vw;
+        height: 340px;
     }
 
      section#login > div#imagem{
@@ -21,6 +31,30 @@
         float: right;
         width: 70%;
     }
+
+    #formulario p {
+        font-size: 1.2em;
+        margin: 20px 0px;
+    }
+
+   
+
+    form  input[type=submit] {
+        background-color: #8a6d47;
+    }
+
+    form input[type=submit]:hover{
+        background-color: #5c4837;
+    }
+
+    form a.botao{
+        background-color: white;
+        color: #201913;
+    }
+    
+    form a.botao:hover{
+        background-color: #5c4837;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -29,6 +63,7 @@
     }
     section#login{
         width: 950px;
+        height: 350px;
     }
 
     section#login > div#imagem{
@@ -48,7 +83,9 @@
 
     #formulario p {
         font-size: 1.2em;
+        margin: 20px 0px;
     }
+
 
 
 }
