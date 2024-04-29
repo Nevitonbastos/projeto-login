@@ -76,22 +76,27 @@ form label {
     display: none;
 }
 
-.campo #i {
+div.campo #i {
     background-color: black;
     color: white;
     font-size: 1.8em;
     width: 40px;
     padding: 5px;
+    border-radius: 8px;
 }
 
-.campo input {
-    background-color: #52b4affb;
+div.campo input {
+    background-color: #3ea8a5;
     font-size: 1em;
+    width: calc(100% - 50px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
     transform: translateY(-7px);
-    
+}
+
+div.campo input:focus-within {
+    background-color: white;
 }
 
 
@@ -104,7 +109,7 @@ form  input[type=submit] {
     background-color: #3b918e;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
 }
 

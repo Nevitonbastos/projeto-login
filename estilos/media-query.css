@@ -12,10 +12,10 @@
         border: 2px solid #61513d;
     }
 
-    .campo input{
-        background-color: #e2c9a9;
-        width: 300px;
+    div.campo input{
+        background-color: #61513d;
     }
+
     section#login {
         width: 80vw;
         height: 340px;
@@ -86,15 +86,14 @@
         margin: 20px 0px;
     }
 
+    div.campo input{
+        background-color: #61513d;
+    }
+
     
     form .campo{
         background-color: #8a6d47;
         border: 2px solid #61513d;
-    }
-
-    .campo input{
-        background-color: #e2c9a9;
-        width: 350px;
     }
     
     form input[type=submit] {
